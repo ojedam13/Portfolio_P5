@@ -4,25 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/86129dc939.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./style/bootstrap.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Martin Ojeda</title>
 </head>
 <body>
+    <div class="navegation">
+        <!--Navegation start-->
+        <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  col-lg-12" id="navbarTogglerDemo02">
+                <a class="col-lg-6 logo col-sm-4" href="#">&lt;/Martin&gt;</a>
+                <ul class="navbar-nav col-lg-6 col-sm-8 navItems">
+                    <li class="nav-item active ">
+                        <a class="nav-link "href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+        </div>
+    
+        <!--Navegation End-->
+
+        <!--Background Start-->
+        <div class="wrapper">
+            <div class="columna col-lg-6 ">
+                <span class="topline">Hola</span>
+                <h1>Soy Desarrolador <span class="multiText"></span></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, vel!</p>
+                <div class="boton">
+                    <button>Hire me</button>
+                </div>
+            </div>
+            <div class="columna col-lg-6">
+                <div class="imgBox">
+                    <img src="./img/yo.png"  alt="Imagen portfolio" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        <!--Background End-->
+        
+        <!--Sobre mi-->
+        
+    
+    
+    <!-- otro portfolio
     <div class="container">
-        <nav>
-            <div class="logo">Martin</div>
+        <nav">
+            <div class="logo"> &lt;/Martin&gt; </div>
                 <ul class="navItems">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <div class="links">
+                 <div class="links">
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="#"><i class="fa-brands fa-github"></i></a>
                     <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                </div>
+                </div> 
         </nav>
 
         <div class="wrapper">
@@ -41,6 +97,14 @@
             </div>
         </div>
     </div>
+    
+    -->
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         var typingEffect = new Typed (".multiText",{
@@ -49,7 +113,7 @@
             typeSpeed: 100,
             backSpeed: 80,
             backDelay: 1500
-        })
+        });
     </script>
 </body>
 </html>
