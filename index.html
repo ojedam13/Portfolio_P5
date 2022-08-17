@@ -12,7 +12,7 @@
     <title>Martin Ojeda</title>
 </head>
 <body>
-    <div class="navegation">
+    <div class="navegation" id="home">
         <!--Navegation start-->
         <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid">
@@ -23,16 +23,16 @@
                 <a class="col-lg-6 logo col-sm-4" href="#">&lt;/Martin&gt;</a>
                 <ul class="navbar-nav col-lg-6 col-sm-8 navItems">
                     <li class="nav-item active ">
-                        <a class="nav-link "href="#">Inicio</a>
+                        <a class="nav-link "href="home">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre mi</a>
+                        <a class="nav-link" href="about">Sobre mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -44,23 +44,47 @@
 
         <!--Background Start-->
         <div class="wrapper">
-            <div class="columna col-lg-6">
+            <div class="columna1 col-lg-6 col-12 col-md-12">
                 <span class="topline">Hola</span>
                 <h1>Soy Desarrolador <span class="multiText"></span></h1>
                 <p>Bienvenidos a mi portfolio!</p>
                 <div class="boton">
-                    <button>Contactame</button>
+                    <button><a href="https://www.linkedin.com/in/ojedamartin13/" target="_blank">Contactame</a> </button>
                 </div>
             </div>
-            <div class="columna col-lg-6">
+            <div class="columna col-lg-6 col-12 col-md-12">
                 <div class="imgBox">
-                    <img src="./img/yo.png"  alt="Imagen portfolio" class="img-fluid">
+                    <!-- <img src="./img/undraw_programming_re_kg9v.svg"  alt="Imagen portfolio" class="w-75" > -->
+                    <img src="./img/yo.png"  alt="Imagen portfolio" class="img-fluid w-50" >
                 </div>
             </div>
         </div>
+        
         <!--Background End-->
         
-        <!--Sobre mi-->
+        <!--Inicio Sobre mi-->
+        <div id="about" class="pb-5">
+            <div class="post-heading text-center">
+                <h3 class="display-4 font-weight-bold ">Sobre Mi</h3>
+                <hr class="w-50 mx-auto pb-5">
+            </div>
+            <div class="row">
+                <div class="">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!--Fin Sobre mi-->
+
+        <!--Inicio Portfolio-->
+        <div id="portfolio"></div>
+        <!--Fin Portfolio-->
+
+        <!--Inicio contact-->
+        <div id="contact" ></div>
+        <!--Fin contact-->
+
         
     
     
